@@ -91,9 +91,8 @@ line-height: 1.17; /* 116.667% */
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-brand);
-padding-left: 15px;
-padding-top: 24px;
-  padding-bottom: 24px; 
+display: block;
+
 }
 .header-logo .accent {
     color: var(--color-primary);
@@ -106,6 +105,7 @@ padding-top: 24px;
     color: var(--color-primary);
     padding-top: 24px;
   padding-bottom: 24px; 
+  display: block;
 }
 .header-link:hover,
 .header-link:focus
@@ -115,9 +115,6 @@ padding-top: 24px;
 .contacts {
     font-style: normal;
     align-items: center;
-}
-.tel {
-    padding-right: 15px;
 }
 .contacts-link {
     line-height: 1.5;
@@ -279,20 +276,16 @@ height: 56px;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
     color: var(--color-primary);
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 .portfolio-description {
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
-    border: ;
 }
 .portf {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .footer {
     background-color: var(--color-primary);
@@ -319,5 +312,4 @@ color: var(--color-light);
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
     color: var(--color-light);
-    padding-top: 17px;
 }
